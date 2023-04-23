@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-dark bg-gradient">
+<div id="start">
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary bg-gradient fixed-top" id="sideNav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+          <span class="d-block">Soorya Kumar M H</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link scrollto active" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link scrollto" href="#education">Education</a></li>
+              <li class="nav-item"><a class="nav-link scrollto" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link scrollto" href="#resume">Resume</a></li>
+              <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Hero Section -->
+
+<div class="hero">
+  <div class="container-fluid">
+    <div class="hero-text">
+      <h1><span id="typed-text"></span><span class="text-center" id="cursor" style="z-index:999">|</span></h1>
+    </div>  
+  </div>  
+</div>
+
+<!-- Hero Section -->
+
+<!-- About Section -->
+
+<div id="about" class="my-3 mx-5">
+  <div class="card container" style="width: 16rem;">
+    <img src="assets/SooryaKumarMH.JPG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Soorya Kumar M H</h5>
+      <p class="card-text">A Passionate Developer With Urge To Learn </p>
+    </div>
+  </div>
+</div>
+
+<!-- About Section -->
+
+<!-- Education Section -->
+
+<div class="container bg-dark text-center my-3 text-white" style="height:2em;" id="education">Education</div>
+  <p class="container my-3">
+    <button class="btn btn-primary container" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      BCA
+    </button>
+  </p>
+  <div class="collapse container" id="collapseExample">
+    <div class="card card-body text-center">
+      I Completed My Bachelor Of Computer Applications From Vivekananda Degree College With a CGPA Of
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 91%;" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100">9.1</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="container">
+    <button class="btn btn-primary container" type="button" data-bs-toggle="collapse" data-bs-target="#collapseE" aria-expanded="false" aria-controls="collapseExample">
+      PUC
+    </button>
+  </p>
+  <div class="collapse container" id="collapseE">
+    <div class="card card-body text-center">
+      I Completed My PUC From Kombettu Junior College Puttur With a CGPA Of
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">9.2</div>
+      </div>
+    </div>
+  </div>
+
+<!-- Education Section -->
+
+<!-- Skills Section -->
+
+<div class="container bg-dark text-center my-5 text-white" style="height:2em;" id="skills">Skills
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card container mb-3" style="width: 80vw;">
+        <div class="card-header">
+          Programming-Languages
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">C</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card container mb-3" style="width: 80vw;">
+        <div class="card-header">
+          Markup-Languages
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML5</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card container mb-3" style="width: 80vw;">
+        <div class="card-header">
+          Agile and Scrum Technology
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+
+<!-- Resume Section -->
+
+<div class="container bg-dark text-center my-2 text-white" style="height:2em;" id="resume">Resume
+</div>
+<div class="text-center">
+  <p class="text-info mt-0">Click Here To See My Resume</p>
+  <button type="button" class="btn mx-auto btn-primary btn-sm" onclick="openPdf()">Resume</button>
+</div>
+ 
+<!-- Resume Section -->
+
+<!-- Contact Section -->
+
+<div class="container bg-dark text-center my-2 text-white" style="height:2em;" id="contact">Contact
+</div>
+<div class="text-center">
+  <p class="text-info mt-0">Click Here To Mail Me</p>
+  <button type="button" class="btn mx-auto btn-primary btn-sm"><a href="mailto:mhsooryakumar8@gmail.com" class="text-white text-decoration-none"> Click To Mail</a></button>
+</div>
+
+<!-- Contact Section -->
+
+<!-- Footer Section -->
+
+<footer class="container-fluid text-center bg-dark bg-gradient mt-3">
+  <p class="text-white my-0">Copyright &copy; <span id="sp">Year</span></p>
+</footer>
+
+<!-- Footer Section -->
+
+<!-- Scripts Section -->
+
+<script>
+  function openPdf() {
+    window.open("assets/Soorya_Kumar_M_H.pdf", "_blank");
+  }
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+<!-- Scripts Section -->
+
+</body>
+</html>
