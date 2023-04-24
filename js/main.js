@@ -25,7 +25,7 @@ const sd = document.getElementById('sp');
 sd.innerHTML = new Date().getFullYear();
 
 
-var header = document.getElementById("navbarResponsive");
+var header = document.getElementById("barResponsive");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
