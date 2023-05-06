@@ -120,8 +120,8 @@ a {
   }
 }
 .profile .name-wrapper {
-  float: unset;
-  width: 100%;
+  float: left;
+  width: 60%;
 }
 .profile h1 {
   font-size: 2.5em;
@@ -143,7 +143,7 @@ a {
     padding-top: 20px;
   }
 }
-@media (min-width: 222px) {
+@media (max-width: 250px) {
   .profile h1 {
     width: 12em;
     padding-top: 20px;
@@ -155,7 +155,7 @@ a {
 .profile .picture-resume-wrapper {
   width: 40%;
   display: block;
-  /* float: right; */
+  float: right;
 }
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
@@ -164,7 +164,7 @@ a {
 }
 @media (max-width: 250px) {
   .profile .picture-resume-wrapper {
-    width: 70%;
+    width: 50%;
   }
 }
 .profile .picture-resume {
@@ -207,19 +207,19 @@ a {
 }
 @media (max-width: 1500px) {
   .profile .picture-resume {
-    width: 100%;
+    width: 150px;
     height: 150px;
   }
 }
 @media (max-width: 1200px) {
   .profile .picture-resume {
-    width: 100%;
+    width: 200px;
     height: 200px;
   }
 }
 @media (max-width: 650px) {
   .profile .picture-resume {
-    width: 100%;
+    width: 180px;
     height: 180px;
   }
 }
@@ -256,13 +256,6 @@ a {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-@media (min-width: 1700px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
 @media (max-width: 1200px) {
   .profile .contact-presentation {
     margin-top: 70px;
@@ -491,5 +484,68 @@ a {
   body {
     width: 100%;
     overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .picture-resume img {
+    margin-left: 16em;
+  }
+  .name-wrapper h4 {
+    margin-left: 9em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .picture-resume img {
+    margin-left: 14em;
+  }
+  .name-wrapper h4 {
+    margin-left: 8em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .picture-resume img {
+    margin-left: 13em;
+  }
+  .name-wrapper h4 {
+    margin-left: 7em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .picture-resume img {
+    margin-left: 12em;
+  }
+  .name-wrapper h4 {
+    margin-left: 7em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .picture-resume img {
+    margin-left: 9em;
+  }
+  .name-wrapper h4 {
+    margin-left: 5em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .picture-resume img {
+    margin-left: 7em;
+  }
+  .name-wrapper h4 {
+    margin-left: 4em;
+    width: 10em;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .picture-resume img {
+    margin-left: 5em;
+  }
+  .name-wrapper h4 {
+    margin-left: 2em;
+    width: 10em;
   }
 }/*# sourceMappingURL=main.css.map */
